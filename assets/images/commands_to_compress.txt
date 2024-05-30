@@ -1,0 +1,3 @@
+gifsicle --scale 0.5 mine1.gif -o mine1_compressed.gif
+convert  -resize 60% mine1.jpg mine1_compressed.jpg
+gifsicle faster.gif '#0-70' -O3 > faster_cut.gif #Maintain only the first 71 frames
