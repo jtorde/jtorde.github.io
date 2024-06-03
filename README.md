@@ -1,4 +1,20 @@
-# Instructions (Jesus)
+# Instructions
+(These instructions are for the github.io webpage)
+
+Clone repo and then do the following:
+```bash
+cd jtorde.github.io
+bundle install  #(if you don’t do this, you get the error Could not find gem 'github-pages' in any of the gem sources listed in your Gemfile.)
+bundle exec jekyll serve --watch #(this will run the webpage locally, it may take some time to run this command)
+```
+Go to http://localhost:4000/ (if you don't have a baseurl)  (see https://docs.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
+
+Note that, for the github.io webpage, you need to have the line of `baseurl` commented (see [this](https://stackoverflow.com/a/64778847)). This is not the case for the mit.edu domain
+
+Once you have done the necessary changes, commit them and push them to the remote repo. Github will automatically build the page, that will appear at https://jtorde.github.io/
+
+# Old instructions 
+(These instructions are for the mit.edu domain)
 
 Install https://jekyllrb.com/docs/installation/
 
