@@ -1,7 +1,7 @@
 # Instructions
 (These instructions are for the github.io webpage)
 
-Clone repo and then do the following:
+Clone repo and do the following:
 ```bash
 cd jtorde.github.io
 bundle install  #(if you don’t do this, you get the error Could not find gem 'github-pages' in any of the gem sources listed in your Gemfile.)
