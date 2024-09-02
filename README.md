@@ -57,6 +57,21 @@ https://idratherbewriting.com/documentation-theme-jekyll/mydoc_push_build_to_ser
 https://jekyllrb.com/docs/step-by-step/10-deployment/
 https://github.com/mmistakes/minimal-mistakes
 
+### To redirect one page to another one, simply put this in the www folder of Athena:
+```
+<!DOCTYPE html>
+  <html>
+    <head>
+  		<title>Old Page</title>
+  			<meta charset="UTF-8" />
+  			<meta http-equiv="refresh" content="1; URL=https://jtorde.github.io/" />
+  	</head>
+  	<body>
+  		<p>This page has been moved. If you are not redirected within 1 seconds, click <a href="https://jtorde.github.io/">here</a> to go to the new homepage.</p>
+  	</body>
+  </html>
+```
+
 ===============================================================
 
 # Minimal Mistakes remote theme starter
